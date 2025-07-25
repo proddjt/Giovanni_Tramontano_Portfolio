@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+  themes: false;
+}
+
+/* Per WebKit (Chrome, Safari, Opera) */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Per Firefox */
+html, body {
+  scrollbar-width: none;
+}
+
+/* Per Edge e IE */
+html, body {
+  -ms-overflow-style: none;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: black !important;
+  color: white;
+}
+
+@font-face {
+  font-family: "Thunder";
+  src: url(./fonts/Thunder-VF.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Commit";
+  src: url(./fonts/CommitMono-400-Regular.otf) format('opentype');
+}
+
+.font-thunder{
+  font-family: "Thunder";
+}
+
+.font-commit{
+  font-family: "Commit";
+}

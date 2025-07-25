@@ -1,0 +1,70 @@
+/* From Uiverse.io by Jarol20cb */ 
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.codeContainer {
+  background-color: #222;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.line {
+  display: block;
+  color: #fff;
+  line-height: 1.5;
+  margin: 4px 0;
+  position: relative;
+}
+
+.codeComment {
+  color: #5c6370;
+}
+
+.codeKeyword {
+  color: #c678dd;
+}
+
+.codeFunction {
+  color: #61afef;
+}
+
+.codeVariable {
+  color: #dcdcaa;
+}
+
+.codeString {
+  color: #98c379;
+}
+
+.indent {
+  padding-left: 20px;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  25% {
+    transform: translate(-6px, 5px) rotate(-1deg);
+  }
+
+  50% {
+    transform: translate(8px, -4px) rotate(1.5deg);
+  }
+
+  75% {
+    transform: translate(-4px, -7px) rotate(-0.5deg);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+.floatAnimation {
+  animation: float 7s ease-in-out infinite;
+}
