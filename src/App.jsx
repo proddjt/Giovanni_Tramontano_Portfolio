@@ -6,7 +6,7 @@ import { useGSAP } from '@gsap/react';
 import hexToRgba from 'hex-to-rgba';
 import rgbHex from 'rgb-hex';
 
-import Landing from "./pages/landing"
+import Landing from "./pages/Landing"
 import Aurora from "./components/reactbits-components/Aurora"
 import Navbar from "./components/Navbar"
 import LangContext from "./components/context/LangContext"
