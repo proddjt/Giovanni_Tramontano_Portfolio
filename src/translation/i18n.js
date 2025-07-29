@@ -26,6 +26,8 @@ const resources = {
             "passion_text" : "Oltre alla passione per l’informatica e lo sviluppo web, coltivo da anni interessi in ambiti molto diversi tra loro. Sono uno speedcuber professionista: pratico lo speedcubing, ovvero la risoluzione di cubi di Rubik e simili nel minor tempo possibile, disciplina in cui partecipo attivamente a gare ufficiali e ambisco a diventare delegato WCA per l’Italia. Produco musica da quasi dieci anni, con progetti pubblicati sia in formato digitale che fisico. Mi dedico inoltre al video editing, realizzando occasionalmente spot per eventi e produzioni private.",
             "wca" : "Profilo WCA",
             "spotify" : "Profilo Spotify",
+
+            "my_projects" : "I miei progetti",
         }
     },
     us: {
@@ -52,6 +54,8 @@ const resources = {
             "passion_text" : "As well as my passion for IT and developement, I've been into a lot of other things for year. I'm a professional speedcuber: I practice speedcubing, that is about solving Rubik's Cube and similars in the shortest time possible, where I'm quite active into official competitions and where I'm aspiring to become a WCA delegate for Italy. I produce music for almost 10 years, with published works both in digital and physical format. I also dedicate myself to video editing, making occasional spots for events and private productions.",
             "wca" : "WCA profile",
             "spotify" : "Spotify profile",
+
+            "my_projects" : "My projects",
         }
     }
 };

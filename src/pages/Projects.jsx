@@ -1,17 +1,18 @@
-import { useState } from "react";
+import { useTranslation } from "react-i18next";
+
+import '../css/embla.css'
+import Carousel from "../components/Carousel";
+
+const OPTIONS = { dragFree: true }
+const SLIDE_COUNT = 7
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 function Projects (){
-    const [hover, setHover] = useState(false);
+    const { t } = useTranslation();
     return (
-        <div className="flex justify-center items-center flex-col gap-60 2xl:mt-0 mt-30" id="projects">
-            <span className="w-[250px] bg-black/95 outline-1 outline-white/50 p-3 rounded-2xl h-screen" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                <img src="/media/img/lootly-smartphone-img.png" className={`w-full ${hover ? "hidden" : ""}`} alt="" />
-                <video src="/media/video/smartphone-lootly-video.mp4" className={`w-full ${hover ? "" : "hidden"}`} autoPlay={hover} loop muted></video>
-            </span>
-            <span className="w-[250px] bg-black/95 outline-1 outline-white/50 p-3 rounded-2xl h-screen" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                <img src="/media/img/lootly-smartphone-img.png" className={`w-full ${hover ? "hidden" : ""}`} alt="" />
-                <video src="/media/video/smartphone-lootly-video.mp4" className={`w-full ${hover ? "" : "hidden"}`} autoPlay={hover} loop muted></video>
-            </span>
+        <div id="projects" className="py-30 px-5 justify-center items-center flex-col">
+            <div className="font-thunder md:text-8xl text-5xl font-bold uppercase text-center mb-30">{t("my_projects")}</div>
+            <Carousel slides={SLIDES} options={OPTIONS} />
         </div>
     )
 }
