@@ -48,3 +48,11 @@ body {
 .font-commit{
   font-family: "Commit";
 }
+
+.swiper-button-prev, .swiper-button-next{
+  color: white !important;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: white !important;
+}

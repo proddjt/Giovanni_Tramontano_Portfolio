@@ -46,7 +46,7 @@ function Navbar (){
                 timeVariance={300}
                 colors={[1, 2, 3, 1, 2, 3, 1, 4]}
             />
-            <div className="dropdown dropdown-center dropdown-bottom">
+            <div className="dropdown dropdown-center dropdown-bottom cursor-pointer">
                 <div tabIndex={0} role="button" className="flex items-center gap-1 uppercase"><Flag code={lang} height="30" width="24"/> <span className="hidden lg:inline">{lang}</span></div>
                 <ul tabIndex={0} className="dropdown-content menu bg-white/10 backdrop-blur rounded-box z-1 w-35 p-2 shadow-sm">
                     <li className="lg:text-base text-xs" onClick={() => changeLanguage("it")}><a><Flag code="IT" height="30" width="24"/> IT</a></li>

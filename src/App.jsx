@@ -111,7 +111,7 @@ function App() {
       </div>
       <Navbar />
       <ProgressBar ref={progressBarRef} />
-      <div className="relative z-1" id="smooth-content">
+      <div className="relative" id="smooth-content">
         <Landing data-speed="1"/>
         <About data-speed="2"/>
         <Projects data-speed="2"/>

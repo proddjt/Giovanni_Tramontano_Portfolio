@@ -7,7 +7,7 @@ import { DiSqllite } from "react-icons/di";
 function About (){
     const { t } = useTranslation();
     return (
-        <div className="md:px-30 px-5 py-30 text-center" id="about">
+        <div className="md:px-30 px-5 py-30 text-center z-1" id="about">
             <div className="md:min-h-screen flex flex-col justify-center items-center md:gap-80 gap-30 overflow-y-auto">
                 <div className="flex justify-center items-center flex-col gap-10 md:min-h-screen">
                     <div className="font-thunder md:text-8xl text-5xl font-bold uppercase">{t("who")}</div>

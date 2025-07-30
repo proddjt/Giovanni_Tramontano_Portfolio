@@ -1,15 +1,17 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import {
   NextButton,
   PrevButton,
   usePrevNextButtons
 } from './CarouselArrowButtons'
+import Modal from './Modal'
 
 const Carousel = (props) => {
   const { slides, options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
   const [scrollProgress, setScrollProgress] = useState(0)
+  const [modalName, setModalName] = useState("Lootly")
 
   const projects = [
     {
@@ -25,7 +27,7 @@ const Carousel = (props) => {
       text_dark: true
     },
     {
-      name : "JP Tattoo",
+      name : "JPTattoo",
       bg_file: "/media/img/jptattoo-bg.png",
       mockup_file: "/media/img/mockups/jptattoo.png",
       text_dark: false
@@ -78,12 +80,18 @@ const Carousel = (props) => {
       .on('slideFocus', onScroll)
   }, [emblaApi, onScroll])
 
+  const openModal = (name) => () => {
+    setModalName(name)
+    document.getElementById('project_modal').showModal()
+  }
+
   return (
-    <div className="embla">
+    <>
+    <div className="embla z-1">
       <div className="embla__viewport rounded-lg outline-2 outline-white/20" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((index) => (
-            <div className="embla__slide flex justify-center items-center relative hover:scale-105 transition duration-300 cursor-pointer" key={index}>
+            <div className="embla__slide flex justify-center items-center relative hover:scale-105 transition duration-300 cursor-pointer" key={index} onClick={openModal(projects[index].name)}>
               <img src={projects[index].bg_file} className='absolute z-0 blur-md lg:w-full lg:h-auto h-full w-auto select-none' alt={projects[index].name} />
               <div className='flex lg:flex-row flex-col justify-center items-center z-2 lg:gap-15 md:gap-0 gap-10 h-[40rem]'>
                 <h5 className={`embla__text lg:text-6xl text-3xl font-commit ${projects[index].text_dark ? "text-black" : "text-white"}`}>{projects[index].name}</h5>
@@ -109,6 +117,8 @@ const Carousel = (props) => {
         </div>
       </div>
     </div>
+    <Modal name={modalName}/>
+    </>
   )
 }
 

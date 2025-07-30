@@ -8,7 +8,7 @@ import ScrollBtn from '../components/ScrollBtn';
 function Landing () {
     const { t } = useTranslation();
     return (
-        <div className="md:h-screen min-h-screen flex md:justify-center justify-start items-center flex-col md:gap-5 gap-0 2xl:mt-0 mt-30" id="home">
+        <div className="md:h-screen min-h-screen flex md:justify-center justify-start items-center flex-col md:gap-5 gap-0 2xl:mt-0 mt-30 z-1" id="home">
             <TextType 
                 text={[t("landing_page1"), t("landing_page2"), t("landing_page3")]}
                 typingSpeed={75}
