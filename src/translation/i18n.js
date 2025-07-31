@@ -79,7 +79,15 @@ const resources = {
             "contacts" : "Contatti",
             "download_cv" : "Scarica CV",
             "write_email" : "Scrivi email",
-            "mail_href" : "mailto:giovanni.tramontano.gt@gmail.com?subject=Richiesta%20di%20contatto&body=Ciao%20Giovanni%2C%0A%0AHo%20visitato%20il%20tuo%20portfolio%20e%20vorrei%20contattarti...",
+            "mail_href" : "mailto:giovanni.tramontano.gt@gmail.com?subject=Richiesta%20di%20contatto&body=Ciao%20Giovanni,%20Ho%20visitato%20il%20tuo%20portfolio%20e%20vorrei%20contattarti...",
+            "instagram_text" : "Dove condivido la mia vita e le mie passioni",
+            "instagram_follow" : "Seguimi",
+            "linkedin_text" : "Dove puoi trovare la mia carriera professionale e le mie competenze",
+            "linkedin_follow" : "Collegati con me",
+            "whatsapp_text" : "Dove puoi scrivermi e chiedermi informazioni",
+            "whatsapp_follow" : "Scrivimi",
+            "github_text" : "Dove puoi trovare i miei progetti e il mio codice",
+            "github_follow" : "Seguimi",
         }
     },
     us: {
@@ -159,7 +167,15 @@ const resources = {
             "contacts" : "Contacts",
             "download_cv" : "Download CV",
             "write_email" : "Send email",
-            "mail_href" : "mailto:giovanni.tramontano.gt@gmail.com?subject=Contact%20request&body=Hello%20Giovanni%2C%0A%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20contact%20you...",
+            "mail_href" : "mailto:giovanni.tramontano.gt@gmail.com?subject=Contact%20request&body=Hello%20Giovanni,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20contact%20you...",
+            "instagram_text" : "Where I share my life and hobbies",
+            "instagram_follow" : "Follow me",
+            "linkedin_text" : "Where you can find my professional career and skills",
+            "linkedin_follow" : "Connect with me",
+            "whatsapp_text" : "Where you can write me and ask me information",
+            "whatsapp_follow" : "Message me",
+            "github_text" : "Where I share my projects and code",
+            "github_follow" : "Follow me",
         }
     }
 };

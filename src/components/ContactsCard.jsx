@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { useTranslation } from "react-i18next";
-import { FaFileDownload } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import CVDropdown from './CVDropdown';
 
@@ -8,14 +7,14 @@ const ContactsCard = () => {
     const { t } = useTranslation();
   return (
     <StyledWrapper>
-      <div className="card font-commit">
-        <div className="card__img overflow-hidden"><img src="/media/img/card_bg.jpeg" alt="" className='w-full scale-400'/></div>
+      <div className="card font-commit border-2 border-gray-400 floatRandom">
+        <div className="card__img overflow-hidden rounded-2xl"><img src="/media/img/card_bg.jpeg" alt="" className='w-full scale-400'/></div>
         <div className="card__avatar"><img src="/media/img/card_avatar.png" alt="" /></div>
         <div className="card__title">Giovanni Tramontano</div>
         <div className="card__subtitle">Full-stack development</div>
         <div className="card__wrapper flex justify-around gap-5">
             <CVDropdown/>
-            <a href={t("mail_href")} target='_blank'>
+            <a href={t("mail_href")}>
                 <button className="card__btn card__btn-solid flex justify-center items-center gap-1"><MdEmail /> {t("write_email")}</button>
             </a>
         </div>
@@ -107,6 +106,33 @@ const StyledWrapper = styled.div`
   .card__btn-solid:hover {
     background: var(--bg-color);
     color: var(--main-color);
-  }`;
+  }
+
+  @keyframes floatRandom {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  25% {
+    transform: translate(5px, -8px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-7px, 6px) rotate(-1deg);
+  }
+
+  75% {
+    transform: translate(4px, 10px) rotate(0.5deg);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+.floatRandom{
+    animation: floatRandom 6s ease-in-out infinite;
+}
+  `;
 
 export default ContactsCard;
