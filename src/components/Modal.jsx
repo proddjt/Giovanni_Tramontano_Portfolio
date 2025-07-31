@@ -35,7 +35,7 @@ function Modal ({name = ""}){
             desktop_gallery: ["jptattoodesk1", "jptattoodesk2", "jptattoodesk3", "jptattoodesk4", "jptattoodesk5"],
             mobile_gallery: ["jptattoomob1", "jptattoomob2", "jptattoomob3", "jptattoomob4", "jptattoomob5"],
             is_online: false,
-            link: "",
+            link: "https://github.com/proddjt/JPTattoo",
             desc_name: "jptattoo_desc",
         },
         {
@@ -45,7 +45,7 @@ function Modal ({name = ""}){
             desktop_gallery: ["prestodesk1", "prestodesk2", "prestodesk3", "prestodesk4", "prestodesk5"],
             mobile_gallery: ["prestomob1", "prestomob2", "prestomob3", "prestomob4", "prestomob5", "prestomob6"],
             is_online: false,
-            link: "",
+            link: "https://github.com/proddjt/Presto_by_SudHub",
             desc_name: "presto_desc",
         },
         {
@@ -55,7 +55,7 @@ function Modal ({name = ""}){
             desktop_gallery: ["gennairinodesk1", "gennairinodesk2"],
             mobile_gallery: [""],
             is_online: false,
-            link: "",
+            link: "https://github.com/proddjt/GennAIrino",
             desc_name: "gennairino_desc",
         },
         {
@@ -65,7 +65,7 @@ function Modal ({name = ""}){
             desktop_gallery: ["vestitidesk1", "vestitidesk2", "vestitidesk3", "vestitidesk4"],
             mobile_gallery: ["vestitimob1", "vestitimob2", "vestitimob3"],
             is_online: false,
-            link: "",
+            link: "https://github.com/proddjt/Vestiti_Matti-a",
             desc_name: "vestiti_desc",
         },
         {

@@ -35,7 +35,7 @@ function Navbar (){
         },
     ]
     return (
-        <nav className="fixed lg:top-10 top-3 left-1/2 transform -translate-x-1/2 lg:w-6/12 w-11/12 lg:rounded-full rounded-xl outline-1 outline-white/20 flex items-center justify-center backdrop-blur-sm bg-white/5 py-3 px-3 font-commit gap-2 z-2 text-[0.53rem] md:text-base lg:text-lg">
+        <nav className="fixed lg:top-10 top-3 left-1/2 transform -translate-x-1/2 lg:w-6/12 w-11/12 lg:rounded-full rounded-xl outline-1 outline-white/20 flex items-center justify-center backdrop-blur-sm bg-white/5 py-3 px-3 font-commit gap-2 z-2 text-[0.53rem] md:text-base lg:text-lg select-none">
             <GooeyNav
                 items={items}
                 particleCount={15}
