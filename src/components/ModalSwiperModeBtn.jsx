@@ -1,16 +1,16 @@
 import { MdPhoneAndroid, MdDesktopWindows } from "react-icons/md";
 
-const ModalSwiperModeBtn = ({galleryMode, setGalleryMode}) => {
+const ModalSwiperModeBtn = ({galleryDeskMode, setGalleryDeskMode}) => {
     const changeMode = () => {
-        if (galleryMode === "desktop") {
-            setGalleryMode("mobile");
+        if (galleryDeskMode) {
+            setGalleryDeskMode(false);
         } else {
-            setGalleryMode("desktop");
+            setGalleryDeskMode(true);
         }
     }
     return (
         <label className="relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" className="sr-only peer" onClick={changeMode}/>
+        <input type="checkbox" className="sr-only peer" onChange={changeMode} checked={!galleryDeskMode}/>
         <div className="group peer ring-0 bg-neutral-900 rounded-full outline-none duration-300 after:duration-300 w-20 h-8 shadow-md peer-checked:bg-white peer-focus:outline-none
             after:content-[''] after:rounded-full after:absolute 
             after:bg-white peer-checked:after:bg-neutral-900 after:outline-none after:h-6 after:w-6 

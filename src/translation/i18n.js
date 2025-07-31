@@ -28,6 +28,8 @@ const resources = {
             "spotify" : "Profilo Spotify",
 
             "my_projects" : "I miei progetti",
+            "my_projects_text" : "In questa sezione presento alcuni dei miei progetti più completi e curati, frutto di un lavoro approfondito e continuo miglioramento. La raccolta è in costante aggiornamento, con nuove idee e sviluppi che verranno aggiunti regolarmente.",
+            "gallery" : "Galleria",
             "online" : "Link al progetto online",
             "repo" : "Link al progetto GitHub",
             "chiudi" : "Chiudi",
@@ -50,7 +52,7 @@ const resources = {
             "gennairino_desc_4" : "Il catalogo prodotti è gestito localmente e consultabile dall’AI durante la conversazione. GennAIrino riesce quindi a combinare capacità di elaborazione linguistica con accesso a dati strutturati, offrendo un’interazione intelligente, dinamica e culturalmente contestualizzata. La scelta stilistica dell’assistente dimostra come l’intelligenza artificiale possa anche essere personalizzata e creativa.",
             "gennairino_desc_5" : "GennAIrino rappresenta un esperimento riuscito che unisce tecnologia, territorio e ironia. È un progetto che ha dimostrato come Laravel possa integrare servizi esterni come OpenAI per creare esperienze utente originali e su misura. Lo spirito del progetto è quello di rendere la tecnologia accessibile e anche, perché no, divertente.",
 
-            "jptattoo_desc_1" : "JPTattoo è un progetto work in progress che ho sviluppato per lo studio di tatuaggi di Joseph Pacilio. Si tratta di una single page application realizzata in React e Tailwind CSS, pensata per offrire una vetrina digitale moderna, dinamica e visivamente coinvolgente per uno studio artistico. L’obiettivo è creare uno spazio web che valorizzi l’identità del tatuatore e ne comunichi al meglio lo stile.",
+            "jptattoo_desc_1" : "JPTattoo è un progetto work in progress che sto sviluppando per lo studio di tatuaggi di Joseph Pacilio. Si tratta di una single page application realizzata in React e Tailwind CSS, pensata per offrire una vetrina digitale moderna, dinamica e visivamente coinvolgente per uno studio artistico. L’obiettivo è creare uno spazio web che valorizzi l’identità del tatuatore e ne comunichi al meglio lo stile.",
             "jptattoo_desc_2" : "Il sito presenta diverse sezioni dedicate, tra cui gallerie video e fotografiche dei lavori, descrizioni dei servizi offerti, una presentazione del tatuatore e una sezione social per connettersi con il pubblico. La navigazione fluida e il design responsive permettono di esplorare i contenuti in modo naturale, sia da desktop che da smartphone, offrendo un’esperienza utente curata e immediata.",
             "jptattoo_desc_3" : "Al momento, il progetto si concentra sull’aspetto promozionale: un sito statico pensato come vetrina professionale. Tuttavia, è prevista una fase di sviluppo futura in cui il sito verrà ampliato con funzionalità avanzate, tra cui la possibilità di richiedere informazioni, ricevere consigli sui tatuaggi e prenotare appuntamenti direttamente online o tramite app mobile.",
             "jptattoo_desc_4" : "Dal punto di vista tecnico, l’uso combinato di React e Tailwind CSS ha permesso di creare un’interfaccia pulita, modulare e facilmente estendibile. Ogni componente è progettato per essere riutilizzabile e orientato alla performance, in vista dell’integrazione di funzionalità interattive e collegamenti a servizi esterni.",
@@ -73,6 +75,11 @@ const resources = {
             "vestiti_desc_3" : "Tutto è stato sviluppato con tecnologie 'vanilla' (HTML, CSS, JavaScript), affiancate da Bootstrap per la gestione responsiva e alcune animazioni leggere in JS che rendono l'interfaccia più viva. La scelta di mantenere il codice pulito e senza framework complessi ci ha permesso di concentrarci sull’apprendimento delle fondamenta.",
             "vestiti_desc_4" : "Questo progetto ha rappresentato per me il primo vero contatto con il front-end moderno: dallo studio delle UI alla logica del DOM, passando per la strutturazione di una pagina web articolata. Ha segnato un passaggio importante nella mia crescita da curioso del web a sviluppatore consapevole.",
             "vestiti_desc_5" : "Vestiti Matti-a è più di un esercizio accademico: è il ricordo di un primo slancio creativo condiviso, dove passione, impegno e voglia di mettersi in gioco hanno costruito qualcosa di reale e funzionante.",
+        
+            "contacts" : "Contatti",
+            "download_cv" : "Scarica CV",
+            "write_email" : "Scrivi email",
+            "mail_href" : "mailto:giovanni.tramontano.gt@gmail.com?subject=Richiesta%20di%20contatto&body=Ciao%20Giovanni%2C%0A%0AHo%20visitato%20il%20tuo%20portfolio%20e%20vorrei%20contattarti...",
         }
     },
     us: {
@@ -101,6 +108,8 @@ const resources = {
             "spotify" : "Spotify profile",
 
             "my_projects" : "My projects",
+            "my_projects_text" : "Here you'll find a selection of my most refined and in-depth projects—each the result of thoughtful design and continuous iteration. This section is regularly updated as I add new ideas and ongoing work.",
+            "gallery" : "Gallery",
             "online" : "Online project link",
             "repo" : "GitHub project link",
             "chiudi" : "Close",
@@ -123,7 +132,7 @@ const resources = {
             "gennairino_desc_4" : "The product catalog is locally stored and accessed by the AI during conversations. GennAIrino merges structured data handling with natural language processing, resulting in a dynamic and smart user experience with cultural flavor. The assistant’s stylization highlights the creative potential of customizing AI interfaces.",
             "gennairino_desc_5" : "GennAIrino is a successful blend of technology, culture, and humor. It showcases how Laravel can be used to integrate external AI services like OpenAI and build tailored conversational experiences. The project captures the idea that innovation can be both useful and genuinely fun.",
         
-            "jptattoo_desc_1" : "JPTattoo is a work-in-progress project I developed for the tattoo studio of Joseph Pacilio. It’s a single page application built with React and Tailwind CSS, designed to serve as a modern and visually engaging online showcase for an independent tattoo artist. The aim is to create a digital space that reflects the personality and artistic style of the studio.",
+            "jptattoo_desc_1" : "JPTattoo is a work-in-progress project I'm developing for the tattoo studio of Joseph Pacilio. It’s a single page application built with React and Tailwind CSS, designed to serve as a modern and visually engaging online showcase for an independent tattoo artist. The aim is to create a digital space that reflects the personality and artistic style of the studio.",
             "jptattoo_desc_2" : "The website includes distinct sections featuring image and video galleries of past work, service descriptions, an introduction to the artist, and social media links for community engagement. With a smooth navigation experience and fully responsive layout, users can explore the studio’s content seamlessly across desktop and mobile devices.",
             "jptattoo_desc_3" : "Currently, JPTattoo focuses on the promotional aspect—a static showcase that highlights the studio’s portfolio and presence. In the next development phase, the site will evolve to include advanced features such as an integrated contact form, tattoo consultation, and online appointment booking, possibly as a mobile app.",
             "jptattoo_desc_4" : "From a technical standpoint, the use of React and Tailwind CSS enabled the creation of a clean, modular, and performance-oriented interface. Each component is built with scalability in mind, ensuring that future enhancements and integrations can be implemented smoothly.",
@@ -146,6 +155,11 @@ const resources = {
             "vestiti_desc_3" : "The entire site was developed using vanilla technologies (HTML, CSS, JavaScript), with Bootstrap included for responsive design and some lightweight JS animations to enhance the user experience. By avoiding complex frameworks, we focused on mastering the essentials of front-end architecture.",
             "vestiti_desc_4" : "This was my first real dive into modern UI development—learning to work with the DOM, understanding layout composition, and organizing a multi-section page with purposeful structure. It helped me shift from theory to practice in a way that felt tangible and rewarding.",
             "vestiti_desc_5" : "Vestiti Matti-a stands as more than just a school project: it's the result of a creative spark shared among peers, where teamwork and curiosity came together to produce something functional, clean, and genuinely fun to build.",
+        
+            "contacts" : "Contacts",
+            "download_cv" : "Download CV",
+            "write_email" : "Send email",
+            "mail_href" : "mailto:giovanni.tramontano.gt@gmail.com?subject=Contact%20request&body=Hello%20Giovanni%2C%0A%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20contact%20you...",
         }
     }
 };

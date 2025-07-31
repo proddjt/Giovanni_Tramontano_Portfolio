@@ -91,11 +91,11 @@ const Carousel = (props) => {
       <div className="embla__viewport rounded-lg outline-2 outline-white/20" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((index) => (
-            <div className="embla__slide flex justify-center items-center relative hover:scale-105 transition duration-300 cursor-pointer" key={index} onClick={openModal(projects[index].name)}>
+            <div className="embla__slide xl:h-[40rem] h-[30rem] flex justify-center items-center relative hover:scale-105 transition duration-300 cursor-pointer select-none" key={index} onClick={openModal(projects[index].name)}>
               <img src={projects[index].bg_file} className='absolute z-0 blur-md lg:w-full lg:h-auto h-full w-auto select-none' alt={projects[index].name} />
-              <div className='flex lg:flex-row flex-col justify-center items-center z-2 lg:gap-15 md:gap-0 gap-10 h-[40rem]'>
+              <div className='flex lg:flex-row flex-col justify-center items-center z-2 lg:gap-15 gap-0 h-[40rem]'>
                 <h5 className={`embla__text lg:text-6xl text-3xl font-commit ${projects[index].text_dark ? "text-black" : "text-white"}`}>{projects[index].name}</h5>
-                <img src={projects[index].mockup_file} alt="mockup image" className='lg:w-1/3 w-2/3 md:w-2/4select-none' />
+                <img src={projects[index].mockup_file} alt="mockup image" className='lg:w-1/3 w-2/3 md:w-2/4 select-none' />
               </div>
             </div>
               

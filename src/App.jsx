@@ -14,6 +14,7 @@ import About from "./pages/About"
 import TopButton from "./components/TopButton"
 import ProgressBar from "./components/ProgressBar"
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother);
 
@@ -65,6 +66,7 @@ function App() {
         { id: "#home", colors: ["#020024", "#090979", "#00D4FF"] },
         { id: "#about", colors: ["#e5af06", "#f5d1bd", "#f76ed2"] },
         { id: "#projects", colors: ["#14e81e", "#00ea8d", "#b53dff"] },
+        { id: "#contact", colors: ["#ff6e61", "#6b5b95", "#93a9d2"] },
       ];
 
       sections.forEach(({ id, colors: newColors }) => {
@@ -115,6 +117,7 @@ function App() {
         <Landing data-speed="1"/>
         <About data-speed="2"/>
         <Projects data-speed="2"/>
+        <Contact data-speed="2"/>
       </div>
       <TopButton />
     </main>
