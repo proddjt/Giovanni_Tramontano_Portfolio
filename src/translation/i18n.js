@@ -28,6 +28,7 @@ const resources = {
             "spotify" : "Profilo Spotify",
 
             "my_projects" : "I miei progetti",
+            "swipe" : "Scorri per navigare",
             "my_projects_text" : "In questa sezione presento alcuni dei miei progetti più completi e curati, frutto di un lavoro approfondito e continuo miglioramento. La raccolta è in costante aggiornamento, con nuove idee e sviluppi che verranno aggiunti regolarmente.",
             "gallery" : "Galleria",
             "online" : "Link al progetto online",
@@ -116,6 +117,7 @@ const resources = {
             "spotify" : "Spotify profile",
 
             "my_projects" : "My projects",
+            "swipe" : "Swipe to navigate",
             "my_projects_text" : "Here you'll find a selection of my most refined and in-depth projects—each the result of thoughtful design and continuous iteration. This section is regularly updated as I add new ideas and ongoing work.",
             "gallery" : "Gallery",
             "online" : "Online project link",

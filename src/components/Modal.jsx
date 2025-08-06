@@ -7,6 +7,7 @@ import ModalSwiperModeBtn from "./ModalSwiperModeBtn";
 function Modal ({name = ""}){
     const { t } = useTranslation();
     const [galleryDeskMode, setGalleryDeskMode] = useState(true);
+    const [resetTrigger, setResetTrigger] = useState(true);
     const projects = [
         {
             name: "Lootly",
@@ -82,7 +83,12 @@ function Modal ({name = ""}){
 
     useEffect(() => {
         setGalleryDeskMode(true);
+        setResetTrigger(!resetTrigger);
     }, [name])
+
+    useEffect(() => {
+        setResetTrigger(!resetTrigger);
+    }, [galleryDeskMode])
 
     const project = projects.find((project) => project.name === name)
 
@@ -95,7 +101,7 @@ function Modal ({name = ""}){
                     <p className="font-thunder uppercase text-3xl">{t("gallery")}</p>
                     { project.has_mobile && <ModalSwiperModeBtn setGalleryDeskMode={setGalleryDeskMode} galleryDeskMode={galleryDeskMode}/>}
                 </div>
-                { galleryDeskMode === true ? <ModalSwiper images={project.desktop_gallery} folder={project.gallery_folder} /> : <ModalSwiper images={project.mobile_gallery} folder={project.gallery_folder}/> }
+                { galleryDeskMode === true ? <ModalSwiper images={project.desktop_gallery} folder={project.gallery_folder} resetTrigger={resetTrigger}/> : <ModalSwiper images={project.mobile_gallery} folder={project.gallery_folder} resetTrigger={resetTrigger}/> }
                 <p className="py-2 text-end font-commit">{t(project.desc_name+"_2")}</p>
                 <p className="py-2 text-start font-commit">{t(project.desc_name+"_3")}</p>
                 <p className="py-2 text-end font-commit">{t(project.desc_name+"_4")}</p>

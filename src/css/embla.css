@@ -28,9 +28,9 @@
   user-select: none;
 }
 .embla__controls {
-  display: grid;
+  display: flex;
   grid-template-columns: auto 1fr;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1.2rem;
   margin-top: 1.8rem;
 }
