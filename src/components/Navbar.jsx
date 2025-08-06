@@ -63,9 +63,9 @@ function Navbar (){
                     <Flag code={lang} height="30" width="24"/> <span className="hidden lg:inline">{lang}</span>
                 </div>
                 {isDropdownOpen && 
-                <ul tabIndex={0} className="absolute mt-2 bg-white/10 backdrop-blur rounded-box z-1 w-35 p-2 shadow-sm">
-                    <li className="lg:text-base text-xs" onClick={() => changeLanguage("it")}><a className="flex items-center gap-2 hover:bg-white/20 transition duration-300 p-1"><Flag code="IT" height="30" width="24"/> IT</a></li>
-                    <li className="lg:text-base text-xs" onClick={() => changeLanguage("us")}><a className="flex items-center gap-2 hover:bg-white/20 transition duration-300 p-1"><Flag code="US" height="30" width="24"/> US</a></li>
+                <ul tabIndex={0} className="absolute mt-2 bg-white/20 backdrop-blur-sm rounded-box z-1 w-35 p-2 shadow-sm">
+                    <li className="lg:text-base text-xs" onClick={() => changeLanguage("it")}><a className="flex items-center gap-2 hover:bg-white/30 transition duration-300 p-1"><Flag code="IT" height="30" width="24"/> IT</a></li>
+                    <li className="lg:text-base text-xs" onClick={() => changeLanguage("us")}><a className="flex items-center gap-2 hover:bg-white/30 transition duration-300 p-1"><Flag code="US" height="30" width="24"/> US</a></li>
                 </ul>
                 } 
             </div>
