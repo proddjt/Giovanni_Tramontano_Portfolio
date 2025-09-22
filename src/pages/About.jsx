@@ -1,8 +1,10 @@
 import { useTranslation } from "react-i18next";
 
 import { FaHtml5, FaCss3, FaBootstrap, FaReact, FaPhp, FaLaravel, FaSpotify } from "react-icons/fa";
-import { RiTailwindCssFill, RiJavascriptFill } from "react-icons/ri";
+import { RiTailwindCssFill, RiJavascriptFill, RiNextjsFill } from "react-icons/ri";
+import { TbBrandMysql } from "react-icons/tb";
 import { DiSqllite } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
 
 function About (){
     const { t } = useTranslation();
@@ -18,7 +20,7 @@ function About (){
                     <div className="text-lg md:text-3xl font-commit">{t("tecnologies_text")}</div>
                     <div className="mt-6 text-center">
                         <h2 className="text-5xl uppercase font-thunder font-semibold mb-6">{t("technologies_utilized")}</h2>
-                        <div className="grid grid-cols-3 lg:grid-cols-9 gap-4">
+                        <div className="grid grid-cols-3 lg:grid-cols-6 gap-4 gap-y-10">
                             <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://html.spec.whatwg.org/multipage/" target="_blank">
                                 <FaHtml5 className="text-4xl m-0 text-orange-500"/>
                                 <span className="font-commit 2xl:text-2xl md:text-base text-md">HTML</span>
@@ -39,13 +41,17 @@ function About (){
                                 <RiJavascriptFill className="text-4xl m-0 text-yellow-500"/>
                                 <span className="font-commit 2xl:text-2xl md:text-base text-md">JavaScript</span>
                             </a>
+                            <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://www.typescriptlang.org/" target="_blank">
+                                <SiTypescript className="text-4xl m-0 text-blue-500"/>
+                                <span className="font-commit 2xl:text-2xl md:text-base text-md">Typescript</span>
+                            </a>
                             <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://react.dev/" target="_blank">
                                 <FaReact className="text-4xl m-0 text-cyan-500"/>
                                 <span className="font-commit 2xl:text-2xl md:text-base text-md">React.js</span>
                             </a>
-                            <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://sqlite.org/" target="_blank">
-                                <DiSqllite className="text-4xl m-0 text-green-500"/>
-                                <span className="font-commit 2xl:text-2xl md:text-base text-md">SQLite</span>
+                            <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://nextjs.org/" target="_blank">
+                                <RiNextjsFill className="text-4xl m-0 text-black"/>
+                                <span className="font-commit 2xl:text-2xl md:text-base text-md">Next.js</span>
                             </a>
                             <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://www.php.net/" target="_blank">
                                 <FaPhp className="text-4xl m-0 text-violet-500"/>
@@ -54,6 +60,14 @@ function About (){
                             <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://laravel.com/" target="_blank">
                                 <FaLaravel className="text-4xl m-0 text-red-500"/>
                                 <span className="font-commit 2xl:text-2xl md:text-base text-md">Laravel</span>
+                            </a>
+                            <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://www.mysql.com/" target="_blank">
+                                <TbBrandMysql className="text-4xl m-0 text-blue-500"/>
+                                <span className="font-commit 2xl:text-2xl md:text-base text-md">MySQL</span>
+                            </a>
+                            <a className="flex items-center justify-center flex-col space-x-2 bg-white/10 rounded-sm py-3 px-2 backdrop-blur-md outline-1 outline-white/20 hover:bg-white/20 transition duration-300 tooltip tooltip-bottom" data-tip={t("see_more")} href="https://sqlite.org/" target="_blank">
+                                <DiSqllite className="text-4xl m-0 text-green-500"/>
+                                <span className="font-commit 2xl:text-2xl md:text-base text-md">SQLite</span>
                             </a>
                         </div>
                     </div>
