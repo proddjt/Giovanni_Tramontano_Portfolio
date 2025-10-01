@@ -15,6 +15,12 @@ const Carousel = (props) => {
 
   const projects = [
     {
+      name: "WCAQuiz 2",
+      bg_file: "/media/img/wcaquiz2-bg.png",
+      mockup_file: "/media/img/mockups/wcaquiz2.png",
+      text_dark: false
+    },
+    {
       name: "Lootly",
       bg_file: "/media/img/lootly-bg.jpg",
       mockup_file: "/media/img/mockups/lootly.png",

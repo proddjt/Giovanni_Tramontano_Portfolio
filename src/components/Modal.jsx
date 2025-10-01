@@ -10,6 +10,16 @@ function Modal ({name = ""}){
     const [resetTrigger, setResetTrigger] = useState(true);
     const projects = [
         {
+            name: "WCAQuiz 2",
+            has_mobile: true,
+            gallery_folder: "wcaquiz2",
+            desktop_gallery: ["wcaquiz2desk1", "wcaquiz2desk2", "wcaquiz2desk3", "wcaquiz2desk4", "wcaquiz2desk5"],
+            mobile_gallery: ["wcaquiz2mob1", "wcaquiz2mob2", "wcaquiz2mob3", "wcaquiz2mob4", "wcaquiz2mob5"],
+            is_online: true,
+            link: "https://wcaquiz.vercel.app",
+            desc_name: "wcaquiz2_desc",
+        },
+        {
             name: "Lootly",
             has_mobile: true,
             gallery_folder: "lootly",

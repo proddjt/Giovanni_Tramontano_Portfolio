@@ -77,6 +77,13 @@ const resources = {
             "vestiti_desc_3" : "Tutto è stato sviluppato con tecnologie 'vanilla' (HTML, CSS, JavaScript), affiancate da Bootstrap per la gestione responsiva e alcune animazioni leggere in JS che rendono l'interfaccia più viva. La scelta di mantenere il codice pulito e senza framework complessi ci ha permesso di concentrarci sull’apprendimento delle fondamenta.",
             "vestiti_desc_4" : "Questo progetto ha rappresentato per me il primo vero contatto con il front-end moderno: dallo studio delle UI alla logica del DOM, passando per la strutturazione di una pagina web articolata. Ha segnato un passaggio importante nella mia crescita da curioso del web a sviluppatore consapevole.",
             "vestiti_desc_5" : "Vestiti Matti-a è più di un esercizio accademico: è il ricordo di un primo slancio creativo condiviso, dove passione, impegno e voglia di mettersi in gioco hanno costruito qualcosa di reale e funzionante.",
+
+            "wcaquiz2_desc_1": "WCAQuiz è un progetto personale nato dalla volontà di mettere in pratica lo studio di Next.js che sto portando avanti in autonomia. È la riscrittura di una mia vecchia versione sviluppata in Laravel, con l’obiettivo di alleggerire la struttura e migliorare l’esperienza utente sul fronte visivo e interattivo.",
+            "wcaquiz2_desc_2": "L’app propone tre modalità di gioco basate sui dati della World Cube Association: Reveal, Focus e Versus. Ogni modalità offre un’interazione diversa con le informazioni delle persone registrate su WCA, sfruttando immagini, statistiche e logiche di confronto per creare un’esperienza coinvolgente.",
+            "wcaquiz2_desc_3": "Il progetto è stato sviluppato con Next.js, TypeScript, JavaScript, CSS e Tailwind, integrando librerie come HeroUI, ReactIcons, Motion, GSAP e Next-sitemaps. Ho utilizzato componenti server-side e client-side per separare la logica di back-end e ottimizzare le performance.",
+            "wcaquiz2_desc_4": "WCAQuiz mi ha permesso di approfondire concetti come la gestione delle API, l’ottimizzazione del rendering, l’animazione fluida dell’interfaccia e la strutturazione di un’app moderna. È stato un esercizio concreto per consolidare competenze tecniche e sperimentare soluzioni avanzate.",
+            "wcaquiz2_desc_5": "Attualmente l’app è disponibile solo in lingua inglese, ma ho in programma di implementare il supporto multilingua. WCAQuiz rappresenta per me un’evoluzione: da un’idea semplice a un progetto completo, pensato per essere funzionale, accessibile e tecnicamente solido.",
+
         
             "contacts" : "Contatti",
             "download_cv" : "Scarica CV",
@@ -168,6 +175,13 @@ const resources = {
             "vestiti_desc_4" : "This was my first real dive into modern UI development—learning to work with the DOM, understanding layout composition, and organizing a multi-section page with purposeful structure. It helped me shift from theory to practice in a way that felt tangible and rewarding.",
             "vestiti_desc_5" : "Vestiti Matti-a stands as more than just a school project: it's the result of a creative spark shared among peers, where teamwork and curiosity came together to produce something functional, clean, and genuinely fun to build.",
         
+            "wcaquiz2_desc_1": "WCAQuiz is a personal project born from my desire to put into practice what I'm learning about Next.js through self-study. It’s a complete rewrite of an earlier version I built in Laravel, originally featuring just one game mode. I rebuilt it from scratch to make it lighter, more modern, and focused on frontend experience.",
+            "wcaquiz2_desc_2": "The app offers three quiz modes based on World Cube Association data: Reveal, Focus, and Versus. Each mode provides a different way to interact with WCA profiles, using images, statistics, and comparison logic to create an engaging experience.",
+            "wcaquiz2_desc_3": "The project was developed using Next.js, TypeScript, JavaScript, CSS, and Tailwind, with libraries like HeroUI, ReactIcons, Motion, GSAP, and Next-sitemaps. I combined server-side and client-side components to keep backend logic separate and optimize performance.",
+            "wcaquiz2_desc_4": "WCAQuiz allowed me to dive deeper into concepts like API handling, rendering optimization, smooth interface animation, and structuring a modern web app. It was a hands-on opportunity to strengthen my technical skills and experiment with advanced solutions.",
+            "wcaquiz2_desc_5": "The app is currently available only in English, but I plan to implement multilingual support. WCAQuiz represents a step forward for me: from a simple idea to a complete, functional project designed to be accessible, efficient, and technically solid.",
+
+
             "contacts" : "Contacts",
             "download_cv" : "Download CV",
             "write_email" : "Send email",
